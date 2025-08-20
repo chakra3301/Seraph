@@ -126,13 +126,13 @@ body {
     margin: 0 auto;
     width: 90vw;
     max-width: 600px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(15px);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 
-        0 8px 32px rgba(0, 0, 0, 0.2),
-        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        0 8px 32px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
     animation: fadeInUp 2s ease-out 0.5s both;
     overflow: hidden;
     z-index: 100;
@@ -195,15 +195,15 @@ body {
 }
 
 .message.angel .message-content {
-    background: rgba(138, 43, 226, 0.15);
-    border: 1px solid rgba(138, 43, 226, 0.2);
+    background: rgba(138, 43, 226, 0.3);
+    border: 1px solid rgba(138, 43, 226, 0.4);
     color: #fff;
     text-align: left;
 }
 
 .message.user .message-content {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     color: #fff;
     text-align: right;
 }
@@ -234,8 +234,8 @@ body {
 /* Chat Input */
 .chat-input-container {
     padding: 1.5rem 2rem 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .chat-form {
